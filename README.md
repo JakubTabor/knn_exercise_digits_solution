@@ -8,3 +8,4 @@
 # I check length of my "X_train" nad "X_test", "len(X_train)" "len(X_test)", then i train my classifier """knn.fit(X_train, y_train)"""
 # And get "score" """knn.score(X_test, y_test)""" and prepare my using classifier "y_pred" """y_pred = knn.predict(X_test)"""
 # I import "confusion_matrix" and put into my "y_test" and "y_pred" """cm = confusion_matrix(y_test, y_pred)"""
+# Ten i use "%matplotlib inline" and "seaborn" to visualize my results and I use "confusion_matrix" """sn.heatmap(cm, annot=True)"""
